@@ -1,0 +1,28 @@
+#* @vtlvariable name="this" type="net.kkolyan.trainingdroid.TrainingController" *#
+#parse("macros.vm")
+<html>
+<head>
+#head("Журнал Тренировок")
+</head>
+<body>
+#nav(1)
+<div class="content">
+    #foreach($course in $this.log.courses)
+        #set($courceTemplate = $this.findCourse($course.course))
+        <h4>Курс: $courceTemplate.title</h4>
+        #foreach($training in $course.trainings)
+            <h5>
+                <span class="courseStep">#$training.courseStep</span>
+                $this.formatDate("H:mm",$training.begin)
+                -
+                $this.formatDate("H:mm",$training.end),
+                $this.formatDate("EEEE d.MM",$training.begin)
+            </h5>
+            <div id="trainingList">
+                #executionSetList($training.sets)
+            </div>
+        #end
+    #end
+</div>
+</body>
+</html>

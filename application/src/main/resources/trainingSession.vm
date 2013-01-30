@@ -1,0 +1,51 @@
+#* @vtlvariable name="this" type="net.kkolyan.trainingdroid.TrainingController" *#
+#parse("macros.vm")
+<html>
+<head>
+   #head("Тренировка")
+</head>
+<body onload="init()">
+#nav(0)
+<div class="content">
+    #if ($this.session.started)
+        #set($currentSet = $this.session.target.sets[0])
+        <div id="trainingList">
+            #executionSetList($this.session.training.sets)
+        </div>
+        <div>
+            #templateSetList($this.session.target.sets)
+        </div>
+    #else
+        #if(!$this.log.courses.empty)
+            #set($courseIndex = $this.log.courses.size() - 1)
+            <div>
+                <h4>Начать тренировку</h4>
+                #set($course = $this.findCourse($this.log.courses[$courseIndex].course))
+                Текущий курс: <a href="trainingCourses#$course.name">$course.title</a>
+                <form action="beginTraining">
+                    <label>
+                        Состояние
+                        <input type="text" name="condition"/>
+                    </label>
+                    <br/>
+                    <input type="submit" value="Начать"/>
+                </form>
+            </div>
+        #end
+        <div>
+            <h4>Начать новый курс</h4>
+            <form action="beginNewCourse">
+                <label>
+                    <select name="course">
+                        #foreach($course in $this.library.courses)
+                            <option value="$course.name">$course.title</option>
+                        #end
+                    </select>
+                </label>
+                <input type="submit" value="Начать"/>
+            </form>
+        </div>
+    #end
+</div>
+</body>
+</html>

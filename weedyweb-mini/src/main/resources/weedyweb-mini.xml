@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <bean id="documentRequestHandler" class="net.kkolyan.web.weedyweb.mini.core.DocumentRequestHandler">
+        <property name="documentRoots">
+            <list>
+                <value>${documentRoot}</value>
+            </list>
+        </property>
+        <property name="contentTypes">
+            <list>
+                <bean class="net.kkolyan.web.weedyweb.mini.core.DocumentRequestHandler$ContentType">
+                    <property name="name" value="text/javascript"/>
+                    <property name="extensions" value="js"/>
+                </bean>
+                <bean class="net.kkolyan.web.weedyweb.mini.core.DocumentRequestHandler$ContentType">
+                    <property name="name" value="text/css"/>
+                    <property name="extensions" value="css"/>
+                </bean>
+                <bean class="net.kkolyan.web.weedyweb.mini.core.DocumentRequestHandler$ContentType">
+                    <property name="name" value="image/x-icon"/>
+                    <property name="extensions" value="ico"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="gateway"  class="net.kkolyan.web.weedyweb.mini.core.FrameworkHttpGateway"/>
+
+    <bean class="net.kkolyan.web.weedyweb.common.AnnotatedMethodActionMappingScanner"/>
+
+    <bean class="net.kkolyan.web.weedyweb.content.XWwwFormDataContentHandler"/>
+
+    <bean class="net.kkolyan.web.weedyweb.content.MultipartFormDataContentHandler"/>
+
+    <bean class="net.kkolyan.web.weedyweb.mini.core.view.VelocityView" init-method="init">
+        <property name="properties" value="${velocityProperties}"/>
+    </bean>
+
+    <bean class="net.kkolyan.web.weedyweb.mini.core.view.RedirectView"/>
+
+    <bean class="net.kkolyan.web.http.server.networking.NioConnectionAcceptor">
+        <property name="ports">
+            <list>
+                <value>${httpServerPort}</value>
+            </list>
+        </property>
+        <property name="connectionHandler">
+            <bean class="net.kkolyan.web.http.server.HttpConnectionHandler">
+                <property name="gateway" ref="gateway"/>
+            </bean>
+        </property>
+    </bean>
+</beans>

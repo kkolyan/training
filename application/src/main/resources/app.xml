@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <bean id="storage" class="net.kkolyan.trainingdroid.storage.ActiveRecordDocumentStorage">
+        <property name="documents">
+            <list>
+                <bean class="net.kkolyan.trainingdroid.storage.XmlDocument">
+                    <property name="mappedClass" value="net.kkolyan.trainingdroid.model.reporting.TrainingLog"/>
+                    <property name="file" value="${dataDirectory}/training-log.xml"/>
+                </bean>
+                <bean class="net.kkolyan.trainingdroid.storage.XmlDocument">
+                    <property name="mappedClass" value="net.kkolyan.trainingdroid.model.TrainingSession"/>
+                    <property name="file" value="${dataDirectory}/training-session.xml"/>
+                </bean>
+                <bean class="net.kkolyan.trainingdroid.storage.XmlClassPathDocument">
+                    <property name="mappedClass" value="net.kkolyan.trainingdroid.model.reference.Library"/>
+                    <property name="resource" value="library.xml"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="trainingController" class="net.kkolyan.trainingdroid.TrainingController"/>
+</beans>

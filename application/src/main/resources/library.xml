@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://kkolyan.net/schema/training-droid">
+
+    <exercise name="BenchPress">
+        <title>Жим лежа</title>
+        <unit>кг</unit>
+        <instructions>
+            базовое упражнение со свободным весом. Выполняющий упражнение ложится на скамейку, опускает гриф штанги до
+            касания с грудью и поднимает до полного выпрямления в локтевом суставе. Используется в бодибилдинге как
+            упражнение для развития грудных мышц, трицепсов и переднего пучка дельтовидной мышцы. Является одной из
+            основных дисциплин в пауэрлифтинге (наряду c приседанием и становой тягой), где используется отличная от
+            бодибилдинга техника: с целью жима максимально большого веса напрягаются трицепсы, передние пучки
+            дельтовидных мышц и широчайшие мышцы спины; роль грудных мышц значительно снижена.
+        </instructions>
+    </exercise>
+    <exercise name="Squat">
+        <title>Присед</title>
+        <unit>кг</unit>
+        <instructions>
+            одно из базовых упражнений в пауэрлифтинге и культуризме; выполняющий упражнение приседает и затем встаёт,
+            возвращаясь в положение стоя. Приседание считается одним из важнейших упражнений не только в силовом
+            спорте, но и в общефизической подготовке, а также используется в качестве подсобного упражнения в процессе
+            подготовки спортсменов практически всех спортивных дисциплин.
+        </instructions>
+    </exercise>
+    <exercise name="RiseOfBody">
+        <title>Подъем корпуса</title>
+        <unit>кг доп.</unit>
+        <instructions>
+
+        </instructions>
+    </exercise>
+    <exercise name="DeadLift">
+        <title>Становая тяга</title>
+        <unit>кг</unit>
+        <instructions>
+            упражнение со штангой. Наклонившись и слегка согнув ноги в коленях, выполняющий это упражнение берётся
+            руками за гриф штанги и выпрямляется. Данное упражнение является одной из трёх основных дисциплин в
+            пауэрлифтинге и прекрасно развивает мускулатуру при условии правильного исполнения. Становая тяга —
+            это сложное движение, в котором участвуют практически все мышцы, либо в поднятии веса, либо в
+            стабилизации положения тела.
+        </instructions>
+    </exercise>
+
+    <course name="Basic">
+        <title>Базовый</title>
+        <training>
+            <set exercise="BenchPress" reps="12"/>
+            <set exercise="BenchPress" reps="20"/>
+            <set exercise="Squat" reps="12"/>
+            <set exercise="DeadLift" reps="12"/>
+            <set exercise="RiseOfBody" reps="80"/>
+        </training>
+    </course>
+
+    <course name="Extended">
+        <title>Расширенный</title>
+        <training>
+            <set exercise="BenchPress" reps="12"/>
+            <set exercise="BenchPress" reps="20"/>
+            <set exercise="Squat" reps="12"/>
+            <set exercise="DeadLift" reps="12"/>
+            <set exercise="RiseOfBody" reps="80"/>
+            <set exercise="BenchPress" reps="12"/>
+            <set exercise="BenchPress" reps="20"/>
+            <set exercise="Squat" reps="12"/>
+            <set exercise="DeadLift" reps="12"/>
+            <set exercise="RiseOfBody" reps="80"/>
+        </training>
+        <training>
+            <set exercise="BenchPress" reps="12"/>
+            <set exercise="BenchPress" reps="20"/>
+            <set exercise="Squat" reps="12"/>
+            <set exercise="DeadLift" reps="12"/>
+            <set exercise="DeadLift" reps="12"/>
+            <set exercise="DeadLift" reps="12"/>
+            <set exercise="RiseOfBody" reps="80"/>
+            <set exercise="RiseOfBody" reps="80"/>
+            <set exercise="RiseOfBody" reps="80"/>
+        </training>
+        <training>
+            <set exercise="RiseOfBody" reps="80"/>
+            <set exercise="RiseOfBody" reps="80"/>
+            <set exercise="RiseOfBody" reps="80"/>
+            <set exercise="DeadLift" reps="12"/>
+            <set exercise="DeadLift" reps="12"/>
+            <set exercise="BenchPress" reps="12"/>
+            <set exercise="BenchPress" reps="20"/>
+            <set exercise="BenchPress" reps="12"/>
+            <set exercise="BenchPress" reps="20"/>
+        </training>
+    </course>
+</library>

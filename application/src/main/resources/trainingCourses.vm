@@ -1,0 +1,29 @@
+#* @vtlvariable name="this" type="net.kkolyan.trainingdroid.TrainingController" *#
+#parse("macros.vm")
+<html>
+<head>
+    #head("Курсы Занятий")
+</head>
+<body>
+#nav(3)
+<div class="content">
+    #foreach($course in $this.library.courses)
+        <h4 id="$course.name">$course.title</h4>
+        #foreach($training in $course.trainings)
+            <div>
+                #if($course.trainings.size() > 1)
+                    #set($n = $foreach.index + 1)
+                    <h5>Тренировка $n</h5>
+                #end
+                <ol>
+                #foreach($set in $training.sets)
+                    #set($ex = $this.findExercise($set.exercise))
+                    <li>$ex.title x $set.reps</li>
+                #end
+                </ol>
+            </div>
+        #end
+    #end
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/change_server"
+          android:title="Change Server"/>
+    <item android:id="@+id/clear_cache"
+          android:title="Refresh"/>
+    <item android:id="@+id/keep_screen_off"
+          android:title="Power Save On"/>
+    <item android:id="@+id/keep_screen_on"
+          android:title="Power Save Off"/>
+    <item android:id="@+id/open_stat"
+          android:title="Open Stat"/>
+    <item android:id="@+id/update_app"
+          android:title="Update App"/>
+    <item android:id="@+id/about"
+          android:title="About"/>
+</menu>

@@ -1,0 +1,16 @@
+#* @vtlvariable name="this" type="net.kkolyan.trainingdroid.TrainingController" *#
+#parse("macros.vm")
+<html>
+<head>
+    #head("Упражнения")
+</head>
+<body>
+#nav(2)
+<div class="content">
+    #foreach($exercise in $this.library.exercises)
+        <h4>$exercise.title</h4>
+        <div>$exercise.instructions</div>
+    #end
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/*@import "trainingList.css";*/
+/*@import "navigation.css";*/
+
+body {
+    max-width: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+div.content {
+    padding: 5px;
+    border: 3px #00121f solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+h4 {
+    color: #d99232;
+    margin-bottom: 10px;
+}
+
+h4 .courseStep, h5 .courseStep {
+    color: white;
+}
+
+h5 {
+    color: #d99232;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+ol {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+input[type="text"], input[type="number"], select {
+    color: inherit;
+    background: #00121f;
+    border: 1px solid #333;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+.content {
+    font-size: large;
+}

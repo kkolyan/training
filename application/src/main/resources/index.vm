@@ -1,0 +1,10 @@
+#* @vtlvariable name="this" type="net.kkolyan.trainingdroid.TrainingController" *#
+#parse("macros.vm")
+<html>
+<head>
+#head("Карманный Тренер")
+</head>
+<body>
+#nav()
+</body>
+</html>

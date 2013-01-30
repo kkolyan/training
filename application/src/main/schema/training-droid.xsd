@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+        xmlns="http://kkolyan.net/schema/training-droid"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://kkolyan.net/schema/training-droid"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified">
+
+    <xsd:element name="library" type="Library"/>
+
+    <xsd:element name="trainingLog" type="TrainingLog"/>
+
+    <xsd:element name="trainingSession" type="TrainingSession"/>
+
+    <xsd:complexType name="Library">
+        <xsd:sequence>
+            <xsd:element name="exercise" type="Exercise" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="course" type="CourseTemplate" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TrainingLog">
+        <xsd:sequence>
+            <xsd:element name="course" type="TrainingCourse" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TrainingSession">
+        <xsd:sequence>
+            <xsd:element name="training" type="Training" minOccurs="0"/>
+            <xsd:element name="target" type="TrainingTemplate" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="started"  type="boolean" use="required"/>
+        <xsd:attribute name="selectedIndex"  type="xsd:int"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="Exercise">
+        <xsd:sequence>
+            <xsd:element name="title" type="xsd:string"/>
+            <xsd:element name="unit" type="xsd:string"/>
+            <xsd:element name="instructions" type="xsd:string" minOccurs="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="name"  type="xsd:string" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="CourseTemplate">
+        <xsd:sequence>
+            <xsd:element name="title" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="training" type="TrainingTemplate" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="name"  type="xsd:string" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="TrainingCourse">
+        <xsd:sequence>
+            <xsd:element name="training" type="Training" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="course"  type="xsd:string" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="Training">
+        <xsd:sequence>
+            <xsd:element name="set" type="ExecutionSet" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="courseStep"  type="xsd:int" use="required"/>
+        <xsd:attribute name="condition"  type="xsd:string"/>
+        <xsd:attribute name="begin"  type="xsd:string" use="required"/>
+        <xsd:attribute name="end"  type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="TrainingTemplate">
+        <xsd:sequence>
+            <xsd:element name="set" type="SetTemplate" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="boolean">
+    </xsd:complexType>
+
+    <xsd:complexType name="ExecutionSet">
+        <xsd:attribute name="begin"  type="xsd:string" use="required"/>
+        <xsd:attribute name="end"  type="xsd:string" use="required"/>
+        <xsd:attribute name="reps"  type="xsd:int" use="required"/>
+        <xsd:attribute name="cheatingReps"  type="xsd:int" use="required"/>
+        <xsd:attribute name="exercise"  type="xsd:string" use="required"/>
+        <xsd:attribute name="amount"  type="xsd:float" use="required"/>
+        <xsd:attribute name="feedback"  type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="SetTemplate">
+        <xsd:attribute name="exercise"  type="xsd:string" use="required"/>
+        <xsd:attribute name="reps"  type="xsd:int" use="required"/>
+        <xsd:attribute name="amount"  type="xsd:float"/>
+    </xsd:complexType>
+
+</xsd:schema>

@@ -1,0 +1,89 @@
+
+
+div.trainingEntry {
+    border-top: 1px gray solid;
+    /*font-size: 15px;*/
+}
+
+div.trainingEntry.last {
+    border-bottom: 1px gray solid;
+}
+
+.trainingEntry div.innerBorder {
+    padding: 0 6px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    margin: 3px 0;
+}
+
+.trainingEntry .exercise {
+    color: #d99232;
+}
+
+.trainingEntry .reps {
+    color: #aedeff;
+}
+
+.trainingEntry .amount {
+    color: #24ff00;
+}
+
+.trainingEntry.planned .exercise {
+    color: #7d531a;
+}
+
+.trainingEntry.planned .reps {
+    color: #678494;
+}
+
+.trainingEntry.planned .amount {
+    color: #127500;
+}
+
+.trainingEntry .time {
+    padding-right: 5px;
+}
+
+.trainingEntry .amount input {
+    text-align: right;
+    width: 50px;
+}
+
+.trainingEntry .reps input {
+    width: 40px;
+}
+
+.trainingEntry .cheating input {
+    width: 40px;
+}
+
+.trainingEntry a {
+    text-decoration: none;
+    padding: 3px 0;
+    color: red;
+}
+
+
+.trainingEntry div.headline {
+    float: left;
+}
+
+.trainingEntry .headline span {
+    padding: 8px;
+    display: block;
+    font-weight: bold;
+    /*font-size: larger;*/
+}
+
+.trainingEntry .headline a {
+    padding: 8px;
+    display: block;
+    font-weight: bold;
+    /*font-size: larger;*/
+}
+
+.trainingEntry .details {
+    float: right;
+    display: block;
+    text-align: center;
+}

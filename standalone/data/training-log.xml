@@ -1,0 +1,277 @@
+<trainingLog xmlns="http://kkolyan.net/schema/training-droid">
+   <course course="Extended">
+      <training courseStep="0" begin="2012-03-21 01:29:04.226 MSK" end="2012-03-21 03:47:27.256 MSK">
+         <set begin="2012-03-21 01:31:36.17 MSK" end="2012-03-21 01:31:40.773 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="80.0" feedback=""/>
+         <set begin="2012-03-21 01:31:40.912 MSK" end="2012-03-21 01:31:51.461 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="33.0" feedback=""/>
+         <set begin="2012-03-21 01:31:51.550 MSK" end="2012-03-21 01:31:58.570 MSK" reps="12" cheatingReps="0" exercise="RiseOfBody" amount="123.0" feedback=""/>
+         <set begin="2012-03-21 01:31:58.664 MSK" end="2012-03-21 01:32:03.16 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="43.0" feedback=""/>
+         <set begin="2012-03-21 01:32:03.114 MSK" end="2012-03-21 01:32:06.464 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123213.0" feedback=""/>
+      </training>
+      <training courseStep="1" begin="2012-03-21 02:02:04.764 MSK" end="2012-03-21 03:47:27.256 MSK">
+         <set begin="2012-03-21 02:02:05.1 MSK" end="2012-03-21 02:02:09.488 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="312.0" feedback=""/>
+         <set begin="2012-03-21 02:02:09.583 MSK" end="2012-03-21 02:02:11.645 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="43.0" feedback=""/>
+         <set begin="2012-03-21 02:02:11.739 MSK" end="2012-03-21 02:02:13.653 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="546.0" feedback=""/>
+         <set begin="2012-03-21 02:02:13.756 MSK" end="2012-03-21 02:02:15.843 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="12.0" feedback=""/>
+         <set begin="2012-03-21 02:02:15.947 MSK" end="2012-03-21 02:02:18.107 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="32.0" feedback=""/>
+      </training>
+      <training courseStep="2" begin="2012-03-21 02:10:55.448 MSK" end="2012-03-21 03:47:27.256 MSK">
+         <set begin="2012-03-21 02:11:17.564 MSK" end="2012-03-21 02:11:25.477 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="12.0" feedback=""/>
+         <set begin="2012-03-21 02:11:25.584 MSK" end="2012-03-21 02:11:28.722 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="34.0" feedback=""/>
+         <set begin="2012-03-21 02:11:28.815 MSK" end="2012-03-21 02:11:32.105 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="56.0" feedback=""/>
+         <set begin="2012-03-21 02:11:32.198 MSK" end="2012-03-21 02:13:31.14 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="12.0" feedback="43"/>
+         <set begin="2012-03-21 02:13:31.116 MSK" end="2012-03-21 02:13:57.728 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="43.0" feedback=""/>
+      </training>
+      <training courseStep="0" begin="2012-03-21 02:13:59.620 MSK" end="2012-03-21 03:47:27.256 MSK">
+         <set begin="2012-03-21 03:35:45.263 MSK" end="2012-03-21 03:35:47.699 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="231.0" feedback=""/>
+         <set begin="2012-03-21 03:35:47.848 MSK" end="2012-03-21 03:35:51.46 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="33.0" feedback=""/>
+         <set begin="2012-03-21 03:45:48.782 MSK" end="2012-03-21 03:45:54.728 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="43.0" feedback=""/>
+         <set begin="2012-03-21 03:45:54.846 MSK" end="2012-03-21 03:45:59.559 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="33.0" feedback="dasdf"/>
+         <set begin="2012-03-21 03:46:43.512 MSK" end="2012-03-21 03:47:27.174 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="23.0" feedback=""/>
+      </training>
+      <training courseStep="1" condition="Болит голова" begin="2012-03-21 04:36:16.11 MSK" end="2012-03-21 04:41:20.428 MSK">
+         <set begin="2012-03-21 04:36:16.106 MSK" end="2012-03-21 04:36:36.460 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="23.0" feedback=""/>
+         <set begin="2012-03-21 04:36:36.522 MSK" end="2012-03-21 04:36:38.626 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="43.0" feedback=""/>
+         <set begin="2012-03-21 04:36:38.691 MSK" end="2012-03-21 04:36:40.969 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="213.0" feedback=""/>
+         <set begin="2012-03-21 04:36:41.40 MSK" end="2012-03-21 04:36:42.855 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="11.0" feedback=""/>
+         <set begin="2012-03-21 04:40:59.838 MSK" end="2012-03-21 04:41:20.340 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="321.0" feedback=""/>
+      </training>
+      <training courseStep="2" condition="Бухой" begin="2012-03-21 04:41:27.346 MSK" end="2012-03-21 05:38:46.448 MSK">
+         <set begin="2012-03-21 05:38:30.646 MSK" end="2012-03-21 05:38:33.844 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="21.0" feedback=""/>
+         <set begin="2012-03-21 05:38:33.937 MSK" end="2012-03-21 05:38:38.351 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="432.0" feedback=""/>
+         <set begin="2012-03-21 05:38:38.413 MSK" end="2012-03-21 05:38:41.657 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="312.0" feedback=""/>
+         <set begin="2012-03-21 05:38:41.722 MSK" end="2012-03-21 05:38:43.576 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="4.0" feedback=""/>
+         <set begin="2012-03-21 05:38:43.687 MSK" end="2012-03-21 05:38:46.351 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="32.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="asdf" begin="2012-03-21 20:07:55.373 MSK" end="2012-03-21 22:24:17.841 MSK">
+         <set begin="2012-03-21 20:07:55.466 MSK" end="2012-03-21 20:07:58.562 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="123.0" feedback=""/>
+         <set begin="2012-03-21 20:07:58.581 MSK" end="2012-03-21 20:08:00.399 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="43.0" feedback=""/>
+         <set begin="2012-03-21 20:08:00.426 MSK" end="2012-03-21 20:08:03.337 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="124.0" feedback=""/>
+         <set begin="2012-03-21 20:37:12.734 MSK" end="2012-03-21 20:37:36.932 MSK" reps="12" cheatingReps="0" exercise="RiseOfBody" amount="0.0" feedback=""/>
+         <set begin="2012-03-21 22:24:03.727 MSK" end="2012-03-21 22:24:17.762 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="12.0" feedback=""/>
+      </training>
+   </course>
+   <course course="Basic">
+      <training courseStep="0" condition="wer" begin="2012-03-21 22:37:48.0 MSK" end="2012-03-21 22:37:56.465 MSK">
+         <set begin="2012-03-21 22:37:48.29 MSK" end="2012-03-21 22:37:49.756 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="312.0" feedback=""/>
+         <set begin="2012-03-21 22:37:49.778 MSK" end="2012-03-21 22:37:51.382 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="432.0" feedback=""/>
+         <set begin="2012-03-21 22:37:51.401 MSK" end="2012-03-21 22:37:53.144 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="543.0" feedback=""/>
+         <set begin="2012-03-21 22:37:53.166 MSK" end="2012-03-21 22:37:54.561 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="123.0" feedback=""/>
+         <set begin="2012-03-21 22:37:54.604 MSK" end="2012-03-21 22:37:56.310 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="423.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="asd" begin="2012-03-22 13:05:43.761 MSK" end="2012-03-24 02:28:45.450 MSK">
+         <set begin="2012-03-22 21:28:56.553 MSK" end="2012-03-22 21:29:04.395 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-22 21:29:04.490 MSK" end="2012-03-22 21:29:08.18 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="3214.0" feedback=""/>
+         <set begin="2012-03-22 21:29:08.85 MSK" end="2012-03-22 21:29:09.808 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="43.0" feedback=""/>
+         <set begin="2012-03-24 02:28:35.800 MSK" end="2012-03-24 02:28:40.6 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-24 02:28:40.113 MSK" end="2012-03-24 02:28:45.340 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="asd" begin="2012-03-25 03:27:06.619 MSK" end="2012-03-25 05:13:46.103 MSK">
+         <set begin="2012-03-25 03:34:24.466 MSK" end="2012-03-25 03:34:26.771 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="134.0" feedback=""/>
+         <set begin="2012-03-25 03:34:26.818 MSK" end="2012-03-25 03:34:32.388 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-25 05:12:56.217 MSK" end="2012-03-25 05:12:59.406 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-25 05:13:42.178 MSK" end="2012-03-25 05:13:43.814 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-25 05:13:43.984 MSK" end="2012-03-25 05:13:45.982 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+   </course>
+   <course course="Extended">
+      <training courseStep="0" condition="" begin="2012-03-25 05:21:44.164 MSK" end="2012-03-26 02:33:35.362 MSK">
+         <set begin="2012-03-25 05:36:59.379 MSK" end="2012-03-25 05:37:00.894 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-25 17:07:25.808 MSK" end="2012-03-25 17:07:29.50 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-26 02:30:12.981 MSK" end="2012-03-26 02:30:16.234 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-26 02:33:18.572 MSK" end="2012-03-26 02:33:20.73 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-26 02:33:31.743 MSK" end="2012-03-26 02:33:35.172 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-03-26 02:35:33.504 MSK" end="2012-03-26 02:51:41.988 MSK">
+         <set begin="2012-03-26 02:36:05.122 MSK" end="2012-03-26 02:36:09.994 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-26 02:44:13.72 MSK" end="2012-03-26 02:44:17.164 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-26 02:47:20.434 MSK" end="2012-03-26 02:48:25.708 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-26 02:50:08.70 MSK" end="2012-03-26 02:50:21.23 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-26 02:51:40.146 MSK" end="2012-03-26 02:51:41.871 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-03-26 02:51:58.629 MSK" end="2012-03-26 03:22:38.45 MSK">
+         <set begin="2012-03-26 03:14:57.19 MSK" end="2012-03-26 03:15:00.51 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-26 03:20:18.18 MSK" end="2012-03-26 03:20:30.647 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-26 03:20:30.903 MSK" end="2012-03-26 03:21:30.92 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-26 03:21:57.93 MSK" end="2012-03-26 03:22:01.257 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-26 03:22:01.531 MSK" end="2012-03-26 03:22:37.859 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-03-26 04:01:25.404 MSK" end="2012-03-28 02:10:39.414 MSK">
+         <set begin="2012-03-26 04:23:47.414 MSK" end="2012-03-26 04:23:48.561 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 02:10:35.452 MSK" end="2012-03-28 02:10:36.845 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:10:36.904 MSK" end="2012-03-28 02:10:37.899 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:10:37.959 MSK" end="2012-03-28 02:10:38.628 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 02:10:38.691 MSK" end="2012-03-28 02:10:39.373 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-03-28 02:15:03.829 MSK" end="2012-03-28 02:15:16.92 MSK">
+         <set begin="2012-03-28 02:15:03.870 MSK" end="2012-03-28 02:15:05.378 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:15:05.423 MSK" end="2012-03-28 02:15:09.311 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:15:09.349 MSK" end="2012-03-28 02:15:14.259 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 02:15:14.304 MSK" end="2012-03-28 02:15:15.211 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 02:15:15.262 MSK" end="2012-03-28 02:15:16.52 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-03-28 02:15:25.861 MSK" end="2012-03-28 02:15:25.884 MSK"/>
+      <training courseStep="0" condition="" begin="2012-03-28 02:15:29.387 MSK" end="2012-03-28 02:15:29.410 MSK"/>
+      <training courseStep="0" condition="" begin="2012-03-28 02:15:35.685 MSK" end="2012-03-28 02:15:35.709 MSK"/>
+      <training courseStep="0" condition="" begin="2012-03-28 02:15:56.197 MSK" end="2012-03-28 02:15:56.219 MSK"/>
+   </course>
+   <course course="Basic">
+      <training courseStep="0" condition="" begin="2012-03-28 02:16:01.219 MSK" end="2012-03-28 02:16:01.242 MSK"/>
+      <training courseStep="0" condition="" begin="2012-03-28 02:16:03.515 MSK" end="2012-03-28 02:16:03.538 MSK"/>
+   </course>
+   <course course="Extended">
+      <training courseStep="0" condition="" begin="2012-03-28 02:16:09.156 MSK" end="2012-03-28 02:16:09.179 MSK"/>
+      <training courseStep="0" condition="" begin="2012-03-28 02:16:56.540 MSK" end="2012-03-28 02:18:05.882 MSK"/>
+      <training courseStep="0" condition="" begin="2012-03-28 02:18:10.953 MSK" end="2012-03-28 02:24:23.860 MSK"/>
+      <training courseStep="1" condition="" begin="2012-03-28 02:26:46.199 MSK" end="2012-03-28 02:27:08.754 MSK">
+         <set begin="2012-03-28 02:26:59.979 MSK" end="2012-03-28 02:27:01.642 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:27:01.718 MSK" end="2012-03-28 02:27:02.920 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:27:02.991 MSK" end="2012-03-28 02:27:03.808 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 02:27:03.881 MSK" end="2012-03-28 02:27:04.727 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 02:27:04.801 MSK" end="2012-03-28 02:27:05.599 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 02:27:05.689 MSK" end="2012-03-28 02:27:06.407 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 02:27:06.487 MSK" end="2012-03-28 02:27:07.158 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 02:27:07.236 MSK" end="2012-03-28 02:27:07.974 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 02:27:08.49 MSK" end="2012-03-28 02:27:08.709 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="2" condition="" begin="2012-03-28 02:27:11.848 MSK" end="2012-03-28 02:27:19.901 MSK">
+         <set begin="2012-03-28 02:27:11.898 MSK" end="2012-03-28 02:27:12.950 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 02:27:13.6 MSK" end="2012-03-28 02:27:13.726 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 02:27:13.785 MSK" end="2012-03-28 02:27:15.54 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 02:27:15.113 MSK" end="2012-03-28 02:27:15.766 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 02:27:15.828 MSK" end="2012-03-28 02:27:16.574 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 02:27:16.640 MSK" end="2012-03-28 02:27:17.509 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:27:17.574 MSK" end="2012-03-28 02:27:18.255 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:27:18.317 MSK" end="2012-03-28 02:27:19.132 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:27:19.195 MSK" end="2012-03-28 02:27:19.861 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+      </training>
+   </course>
+   <course course="Basic">
+      <training courseStep="0" condition="" begin="2012-03-28 02:27:32.423 MSK" end="2012-03-28 02:27:37.291 MSK">
+         <set begin="2012-03-28 02:27:32.463 MSK" end="2012-03-28 02:27:34.13 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:27:34.58 MSK" end="2012-03-28 02:27:34.957 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 02:27:35.4 MSK" end="2012-03-28 02:27:35.741 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 02:27:35.789 MSK" end="2012-03-28 02:27:36.478 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 02:27:36.527 MSK" end="2012-03-28 02:27:37.253 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-03-28 02:27:58.983 MSK" end="2012-03-28 02:27:59.6 MSK"/>
+      <training courseStep="0" condition="" begin="2012-03-28 02:28:02.70 MSK" end="2012-03-28 02:28:02.93 MSK"/>
+      <training courseStep="0" condition="" begin="2012-03-28 03:08:42.240 MSK" end="2012-03-28 03:08:55.700 MSK">
+         <set begin="2012-03-28 03:08:51.182 MSK" end="2012-03-28 03:08:52.548 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:08:52.616 MSK" end="2012-03-28 03:08:53.460 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:08:53.518 MSK" end="2012-03-28 03:08:54.235 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 03:08:54.296 MSK" end="2012-03-28 03:08:54.956 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:08:55.17 MSK" end="2012-03-28 03:08:55.660 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-03-28 03:08:58.918 MSK" end="2012-03-28 03:09:03.808 MSK">
+         <set begin="2012-03-28 03:08:58.980 MSK" end="2012-03-28 03:08:59.923 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:08:59.988 MSK" end="2012-03-28 03:09:01.19 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:01.72 MSK" end="2012-03-28 03:09:01.835 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 03:09:01.909 MSK" end="2012-03-28 03:09:02.666 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:09:02.719 MSK" end="2012-03-28 03:09:03.771 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+   </course>
+   <course course="Extended">
+      <training courseStep="0" condition="" begin="2012-03-28 03:09:10.334 MSK" end="2012-03-28 03:09:20.689 MSK">
+         <set begin="2012-03-28 03:09:10.394 MSK" end="2012-03-28 03:09:11.717 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:11.763 MSK" end="2012-03-28 03:09:12.628 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:12.676 MSK" end="2012-03-28 03:09:13.475 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 03:09:13.526 MSK" end="2012-03-28 03:09:14.283 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:09:14.335 MSK" end="2012-03-28 03:09:15.148 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 03:09:15.200 MSK" end="2012-03-28 03:09:15.973 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:16.25 MSK" end="2012-03-28 03:09:18.51 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:18.101 MSK" end="2012-03-28 03:09:19.139 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 03:09:19.189 MSK" end="2012-03-28 03:09:19.844 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:09:19.896 MSK" end="2012-03-28 03:09:20.650 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="1" condition="" begin="2012-03-28 03:09:24.277 MSK" end="2012-03-28 03:09:31.817 MSK">
+         <set begin="2012-03-28 03:09:24.332 MSK" end="2012-03-28 03:09:25.382 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:25.427 MSK" end="2012-03-28 03:09:26.44 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:26.89 MSK" end="2012-03-28 03:09:26.828 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-28 03:09:26.872 MSK" end="2012-03-28 03:09:27.604 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:09:27.649 MSK" end="2012-03-28 03:09:28.379 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:09:28.426 MSK" end="2012-03-28 03:09:29.340 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:09:29.387 MSK" end="2012-03-28 03:09:30.116 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 03:09:30.164 MSK" end="2012-03-28 03:09:30.932 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 03:09:30.980 MSK" end="2012-03-28 03:09:31.780 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="2" condition="" begin="2012-03-28 03:09:34.269 MSK" end="2012-03-28 03:09:41.776 MSK">
+         <set begin="2012-03-28 03:09:34.320 MSK" end="2012-03-28 03:09:35.243 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 03:09:35.286 MSK" end="2012-03-28 03:09:36.283 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 03:09:36.328 MSK" end="2012-03-28 03:09:37.107 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-03-28 03:09:37.151 MSK" end="2012-03-28 03:09:37.716 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:09:37.781 MSK" end="2012-03-28 03:09:38.547 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-28 03:09:38.594 MSK" end="2012-03-28 03:09:39.379 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:39.424 MSK" end="2012-03-28 03:09:40.132 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:40.178 MSK" end="2012-03-28 03:09:40.914 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 03:09:40.961 MSK" end="2012-03-28 03:09:41.739 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-03-28 04:09:46.461 MSK" end="2012-04-12 04:02:34.233 MSK">
+         <set begin="2012-03-28 04:09:46.515 MSK" end="2012-03-28 04:09:47.868 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 04:09:47.910 MSK" end="2012-03-28 04:09:48.692 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-03-28 04:09:48.736 MSK" end="2012-03-28 04:09:49.571 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-03-30 15:00:38.969 MSK" end="2012-03-30 15:00:41.309 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-03-30 15:00:44.449 MSK" end="2012-03-30 15:00:45.611 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-01 05:17:25.392 MSK" end="2012-04-01 05:17:27.230 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-01 05:20:43.324 MSK" end="2012-04-01 05:20:44.828 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-12 04:02:28.840 MSK" end="2012-04-12 04:02:30.501 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-04-12 04:02:30.910 MSK" end="2012-04-12 04:02:32.8 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-04-12 04:02:32.394 MSK" end="2012-04-12 04:02:33.648 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="1" condition="" begin="2012-04-12 04:02:38.206 MSK" end="2012-04-14 04:52:56.732 MSK">
+         <set begin="2012-04-12 04:02:38.620 MSK" end="2012-04-12 04:15:36.239 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-12 04:18:13.114 MSK" end="2012-04-12 04:18:14.326 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-12 04:56:16.25 MSK" end="2012-04-12 04:56:21.797 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-04-12 04:57:31.935 MSK" end="2012-04-12 04:57:35.900 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-04-12 05:08:46.66 MSK" end="2012-04-12 05:08:47.813 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-04-13 02:42:31.334 MSK" end="2012-04-13 02:42:32.715 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-04-13 03:02:39.247 MSK" end="2012-04-13 03:02:40.882 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-14 04:52:52.814 MSK" end="2012-04-14 04:52:54.636 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-14 04:52:55.53 MSK" end="2012-04-14 04:52:56.151 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="2" condition="" begin="2012-04-14 14:38:07.252 MSK" end="2012-04-14 15:48:54.24 MSK">
+         <set begin="2012-04-14 14:38:07.373 MSK" end="2012-04-14 14:38:08.859 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-14 14:38:08.913 MSK" end="2012-04-14 14:38:10.777 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-14 14:38:11.131 MSK" end="2012-04-14 14:38:11.905 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-14 14:38:11.965 MSK" end="2012-04-14 14:38:12.801 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="321234.0" feedback=""/>
+         <set begin="2012-04-14 14:38:13.157 MSK" end="2012-04-14 14:38:25.98 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="45.0" feedback=""/>
+         <set begin="2012-04-14 14:40:45.189 MSK" end="2012-04-14 14:40:46.287 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-14 15:47:58.335 MSK" end="2012-04-14 15:47:59.354 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-14 15:47:59.767 MSK" end="2012-04-14 15:48:05.230 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="123.0" feedback=""/>
+         <set begin="2012-04-14 15:48:51.995 MSK" end="2012-04-14 15:48:53.561 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+      </training>
+      <training courseStep="0" condition="" begin="2012-04-14 15:48:58.252 MSK" end="2012-04-22 01:51:01.599 MSK">
+         <set begin="2012-04-14 15:48:58.328 MSK" end="2012-04-14 15:49:02.149 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="44.0" feedback=""/>
+         <set begin="2012-04-14 15:49:02.503 MSK" end="2012-04-14 15:49:36.960 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-14 15:50:48.896 MSK" end="2012-04-14 15:51:08.484 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-04-14 17:01:29.228 MSK" end="2012-04-14 17:01:30.644 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="45.0" feedback=""/>
+         <set begin="2012-04-14 17:01:30.765 MSK" end="2012-04-14 17:01:32.542 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-14 17:39:48.383 MSK" end="2012-04-14 17:39:50.204 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-21 02:17:48.517 MSK" end="2012-04-21 02:17:50.594 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-21 02:17:50.700 MSK" end="2012-04-21 02:17:52.579 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-04-22 01:44:30.991 MSK" end="2012-04-22 01:44:32.511 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="45.0" feedback=""/>
+         <set begin="2012-04-22 01:44:32.647 MSK" end="2012-04-22 01:44:33.676 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="1" condition="" begin="2012-04-22 01:53:22.864 MSK" end="2012-04-22 01:54:07.347 MSK">
+         <set begin="2012-04-22 01:53:32.906 MSK" end="2012-04-22 01:53:36.122 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-22 01:53:59.476 MSK" end="2012-04-22 01:54:02.10 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-22 01:54:02.59 MSK" end="2012-04-22 01:54:02.864 MSK" reps="12" cheatingReps="0" exercise="Squat" amount="123.0" feedback=""/>
+         <set begin="2012-04-22 01:54:02.912 MSK" end="2012-04-22 01:54:03.688 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="45.0" feedback=""/>
+         <set begin="2012-04-22 01:54:03.738 MSK" end="2012-04-22 01:54:04.463 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="45.0" feedback=""/>
+         <set begin="2012-04-22 01:54:04.553 MSK" end="2012-04-22 01:54:05.207 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="45.0" feedback=""/>
+         <set begin="2012-04-22 01:54:05.258 MSK" end="2012-04-22 01:54:05.904 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-22 01:54:05.953 MSK" end="2012-04-22 01:54:06.546 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-22 01:54:06.603 MSK" end="2012-04-22 01:54:07.319 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+      </training>
+      <training courseStep="2" condition="" begin="2012-04-22 01:55:14.376 MSK" end="2012-04-22 01:55:26.234 MSK">
+         <set begin="2012-04-22 01:55:14.800 MSK" end="2012-04-22 01:55:16.195 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-22 01:55:16.568 MSK" end="2012-04-22 01:55:17.401 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-22 01:55:17.766 MSK" end="2012-04-22 01:55:18.577 MSK" reps="80" cheatingReps="0" exercise="RiseOfBody" amount="11.0" feedback=""/>
+         <set begin="2012-04-22 01:55:18.948 MSK" end="2012-04-22 01:55:19.656 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="45.0" feedback=""/>
+         <set begin="2012-04-22 01:55:20.18 MSK" end="2012-04-22 01:55:21.88 MSK" reps="12" cheatingReps="0" exercise="DeadLift" amount="45.0" feedback=""/>
+         <set begin="2012-04-22 01:55:21.452 MSK" end="2012-04-22 01:55:22.160 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-22 01:55:22.522 MSK" end="2012-04-22 01:55:23.391 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-22 01:55:23.757 MSK" end="2012-04-22 01:55:24.472 MSK" reps="12" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+         <set begin="2012-04-22 01:55:24.850 MSK" end="2012-04-22 01:55:25.649 MSK" reps="20" cheatingReps="0" exercise="BenchPress" amount="666.0" feedback=""/>
+      </training>
+   </course>
+</trainingLog>

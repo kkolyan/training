@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Качалка</string>
+    <string name="app_name_dev">Качалка DEV</string>
+    <string name="save">Сохранить</string>
+    <string name="training">Тренировка</string>
+    <string name="history">История</string>
+    <string name="library">Библиотека</string>
+    <string name="training_entry_editor_submit">Ок</string>
+    <string name="training_entry_editor_reps">Повторений</string>
+</resources>

@@ -1,0 +1,127 @@
+#* @vtlvariable name="this" type="net.kkolyan.trainingdroid.TrainingController" *#
+#macro(head $title)
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+    <style type="text/css">
+        #include("main.css")
+        #include("trainingList.css")
+        #include("navigation.css")
+    </style>
+    <title>$title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="MobileOptimized" content="480" />
+    <script type="text/javascript">
+        #include("http.js")
+    </script>
+
+#end
+
+#macro(nav $selected)
+<div class="under-nav">
+</div>
+    <div>
+    </div>
+    <table class="nav">
+        <tr>
+            <td #if($selected == 0) class="selected" #end>
+                <a href="trainingSession">Трен.</a>
+            </td>
+            <td #if($selected == 1) class="selected" #end>
+                <a href="trainingLog">Журнал</a>
+            </td>
+            <td #if($selected == 2) class="selected" #end>
+                <a href="trainingExercises">Упражн.</a>
+            </td>
+            <td #if($selected == 3) class="selected" #end>
+                <a href="trainingCourses">Курсы</a>
+            </td>
+        </tr>
+    </table>
+#end
+
+#macro(executionSetList $sets)
+    #foreach($aSet in $sets)
+        #set($tSet = $aSet)
+        #* @vtlvariable name="tSet" type="net.kkolyan.trainingdroid.model.reporting.ExecutionSet" *#
+        <div class="trainingEntry #if($foreach.last) last #end">
+            <div class="innerBorder">
+                #set($ex = $this.findExercise($tSet.exercise))
+                <div class="headline">
+                    <span class="time">
+                        $this.formatDate("H:mm",$tSet.begin)-$this.formatDate("H:mm",$tSet.end)
+                    </span>
+                </div>
+                <div class="details">
+                    <span class="exercise">$ex.title</span>
+                    <br/>
+                    #if($tSet.amount > 0)
+                        <span class="amount">$tSet.amount$ex.unit</span>
+                    #end
+                    <span class="reps">x$tSet.reps</span>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    #end
+#end
+
+#macro(templateSetList $sets)
+    #foreach($aSet in $sets)
+        #* @vtlvariable name="set" type="net.kkolyan.trainingdroid.model.reference.SetTemplate" *#
+        #set($set = $aSet)
+        #set($ex = $this.findExercise($set.exercise))
+        #if($foreach.index == $this.session.selectedIndex)
+            <div class="trainingEntry #if($foreach.last) last #end">
+                <div class="innerBorder">
+                    <form action="submitSet?genre=xxx" method="post" onsubmit="return onFormSubmit(this);">
+                        <input type="hidden" name="begin" value="$this.currentTime"/>
+                        <input type="hidden" name="exercise" value="$set.exercise"/>
+
+                        <div>
+                            <span class="exercise">$ex.title</span>
+                            <span class="amount">
+                                <input type="number" name="amount" value="$set.amount"/>
+                                $ex.unit
+                            </span>
+                            <span class="reps">
+                                x<input type="number" name="reps" value="$set.reps"/>
+                            </span>
+                        </div>
+                        <div>
+                            <label class="cheating">
+                                читинг
+                                <input type="number" name="cheating" size="1" value="0"/>
+                            </label>
+                            <label>
+                                замечания
+                                <input type="text" name="feedback" style="width: 35px"/>
+                            </label>
+                            <input type="submit" value="Сделано"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        #else
+            <div class="trainingEntry planned #if($foreach.last) last #end">
+                <div class="innerBorder">
+                    <div class="headline">
+                        <a href="trainingSession?selected=$foreach.index">делать</a>
+                    </div>
+                    <div class="details">
+                        <div>
+                            <span class="exercise">$ex.title</span>
+                            <br/>
+                            #if($set.amount > 0)
+                                <span class="amount">$set.amount$ex.unit</span>
+                            #end
+                            <span class="reps">x$set.reps</span>
+                        </div>
+                    </div>
+                    <div style="clear: both;">
+
+                    </div>
+                </div>
+            </div>
+        #end
+    #end
+#end

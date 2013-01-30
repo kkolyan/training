@@ -1,0 +1,52 @@
+
+div.nav {
+    font-size: 8px;
+    width: 100%;
+}
+
+table.nav {
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+
+    background-color: #00121f;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+div.under-nav {
+    height: 4px;
+    background-color: #6667ff;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: white;
+}
+
+.nav td {
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0 solid;
+    /*border-right: 1px black solid;*/
+    display: inline-block;
+}
+.nav td.selected {
+    padding-left: 6px;
+    margin-left: -1px;
+    background-color: #6667ff;
+    border-right: #6667ff;
+}
+
+.nav a {
+    color: green;
+}
+
+.nav .selected a {
+    color: white;
+}
